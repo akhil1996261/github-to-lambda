@@ -8,7 +8,7 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - apt-get install libmysqlclient-dev python-dev
-      - pip install versiontools
+      - pip install -r requirements.txt
   build:
     commands:
       - echo "Zipping deployment package..."
