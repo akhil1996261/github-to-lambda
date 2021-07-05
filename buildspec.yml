@@ -8,8 +8,8 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - apt-get update
-      - apt-get install -y python-pip
-      - apt-get install -y libmysqlclient-dev
+      - pip install mysqlclient
+      - sudo apt-get install python3-dev libmysqlclient-dev
       - pip install -U -r requirements.txt
   build:
     commands:
