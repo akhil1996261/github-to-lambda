@@ -1,7 +1,0 @@
-{
-"region": "ap-south-1",
-"REPO": "serverless/serverless",
-"GITHUB_WEBHOOK_SECRET": "textstringhere",
-"GITHUB_API_TOKEN": "8374119539",
-"GITHUB_USERNAME": "akhil1996261"
-}
