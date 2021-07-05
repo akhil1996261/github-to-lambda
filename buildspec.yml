@@ -8,8 +8,8 @@ phases:
     commands:
       - echo "Installing dependencies..."
       - apt-get update
-      - apt-get install -y python-pip libmysqlclient-dev
-      - sudo apt-get install libtiff5-dev libjpeg8-dev zlib1g-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk
+      - apt-get install -y python-pip
+      - apt-get install -y libmysqlclient-dev
       - pip install -U -r requirements.txt
   build:
     commands:
