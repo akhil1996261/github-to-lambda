@@ -7,6 +7,7 @@ phases:
       python: 3.8
     commands:
       - echo "Installing dependencies..."
+      - apt-get update
       - apt-get install libmysqlclient-dev python-dev
       - sudo apt-get install libtiff5-dev libjpeg8-dev zlib1g-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk
       - pip install -U -r requirements.txt
